@@ -42,4 +42,14 @@ class tv {
 	tvplasma.hargatv(400000);
 	cout <<"===================================\n";
 	
-	}
+}
+void tv::jenistv(string tv){
+	cout <<"\n"<<"merk "<<tv<<endl;
+}	
+void tv::ukurantv(string ukuran){
+	cout <<"\n"<<"ukuran "<<ukuran<<endl;
+}
+void tv::hargatv(int harga){
+	cout <<"\n"<<"harga "<<harga<<endl;
+
+}
